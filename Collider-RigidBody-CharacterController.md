@@ -29,6 +29,8 @@ RigidBody как бы помещает объект в реальный мир (
 
 <https://medium.com/ironequal/unity-character-controller-vs-rigidbody-a1e243591483>
 
+<https://www.mousawidev.com/blog/unity-character-controller-vs-rigidbody>
+
 ## Collider
 
 Используется для неподвижных объектов, с которыми может столкнуться RigidBody.

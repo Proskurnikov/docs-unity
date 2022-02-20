@@ -25,7 +25,7 @@ RigidBody как бы помещает объект в реальный мир (
 
 <!-- TODO: Указано, что RigidBody может быть кинематическим или нет. Разобраться в чем разница -->
 
-## RigidBody vs Collider
+## RigidBody vs Character Control
 
 <https://medium.com/ironequal/unity-character-controller-vs-rigidbody-a1e243591483>
 

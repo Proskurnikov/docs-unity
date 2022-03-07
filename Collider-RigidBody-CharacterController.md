@@ -8,13 +8,15 @@
 
 - Kinematic Rigidbody Collider (У объекта есть Collider (свойство isTrigger = false) и RigidBody (свойство isKinematic = true)). Можно использовать, например, для подвижной платформы, двери. Платформа не должна сдвигаться, если в неё упрёшься. Движением надо управлять через transform. Физический движок не управляет этой платформой.
 
-- Trigger Collider (isTrigger = true). Все остальные не имеет смысла рассматривать отдельно (но они все равно перечислены ниже), т.к. если свойство isTrigger = true, то объекты проникают друг через друга, е если также хотя бы у одного объекта добавлен компонент RigidBody, то в момент столкновения вызывается метод OnTriggerEnter(). При пересечении с CharacterController RigidBody не обязателен.
+- Trigger Collider (isTrigger = true). Все остальные не имеет смысла рассматривать отдельно (но они все равно перечислены ниже), т.к. если свойство isTrigger = true, то объекты проникают друг через друга, е если также хотя бы у одного объекта добавлен компонент RigidBody, то в момент столкновения вызывается метод OnTriggerEnter(). При пересечении с CharacterController RigidBody не обязателен. Подходит для интерактивных элементов (собираемое здоровье, энергия и т.п., место, после попадания в которое открывается дверь и т.п.)
 
   - Static Trigger Collider (У объекта есть только Collider, свойство isTrigger = true, без RigidBody)
 
   - Rigidbody Trigger Collider (У объекта есть Collider (свойство isTrigger = true) и RigidBody (свойство isKinematic = false))
 
   - Kinematic Rigidbody Trigger Collider (У объекта есть Collider (свойство isTrigger = true) и RigidBody (свойство isKinematic = true))
+
+- CharacterController - компонент для игрового персонажа.
 
 ## Collider vs RigidBody
 
